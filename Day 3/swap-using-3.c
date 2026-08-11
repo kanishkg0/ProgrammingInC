@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 int main() {
-    int a,b,temp;
+    int a,b,temp; //temp = temporary variable for swapping
 
     printf("Enter two nubers a and b : ");
     scanf("%d %d",&a,&b);
