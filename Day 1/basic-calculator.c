@@ -10,9 +10,7 @@ int main() {
     sum = x + y;
     diff = x - y;
     product = x * y;
-    //quotient = x / y;
-
-    //printf("Sum=%d, Diff=%d, Product=%d, Quotient=%d",sum,diff,product,quotient);
+    
     printf("Sum=%d, Diff=%d, Product=%d, ",sum,diff,product);
 
 
