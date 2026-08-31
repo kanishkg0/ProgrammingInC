@@ -4,14 +4,11 @@
 
 int main() {
     char binary[100];
-    int i;
 
     printf("Enter a binary number: ");
     scanf("%s", binary);
 
-    printf("1's Complement: ");
-
-    for (i = 0; binary[i] != '\0'; i++) {
+    for (int i = 0; binary[i] != '\0'; i++) {
         if (binary[i] == '1') {
             printf("0");
         }
@@ -20,7 +17,6 @@ int main() {
         }
         else {
             printf("\nInvalid binary number!");
-            return 0;
         }
     }
 
