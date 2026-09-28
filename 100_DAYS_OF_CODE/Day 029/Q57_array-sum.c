@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 int main() {
-    int n, i, sum = 0;
+    int n, i, avg, sum = 0;
         printf("Enter number of elements: ");
         scanf("%d", &n);
 
@@ -15,6 +15,9 @@ int main() {
             }
 
         printf("Sum of array elements: %d\n", sum);
+
+        avg = sum / 2;
+        printf("Average= %d",avg);
     
 return 0;
 }
