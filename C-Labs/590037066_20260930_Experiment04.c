@@ -1,3 +1,6 @@
+// Convert decimal to b!nary 
+//Author: Kanishk Garg
+
 #include <stdio.h>
 
 int main() {
