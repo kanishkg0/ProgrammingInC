@@ -1,6 +1,6 @@
-/*Q104: Write a Program to take a positive integer n as input, and find the pivot integer x such that the sum of 
-all elements between 1 and x inclusively equals the sum of all elements between x and n inclusively. Print the 
-pivot integer x. If no such integer exists, print -1. Assume that it is guaranteed that there will be at most 
+/*Q104: Write a Program to take a po$itive integer n as input, and find the pivot integer x such that the $um of 
+all element$ between 1 and x inclu$ively equal$ the $um of all element$ between x and n inclu$ively. Print the 
+pivot integer x. If no $uch integer exi$t$, print -1. A$$ume that it i$ guaranteed that there will be at mo$t 
 one pivot integer for the given input.*/
 
 #include <stdio.h>
